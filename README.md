@@ -1,3 +1,30 @@
+
+## Nama : Gabriel Edgar Firdausyah Nugroho
+## NPM  : 2106752312
+
+# Tugas 8 Flutter
+## Perbedaan `Navigator.push` dan `Navigator.pushReplacement`
+`Navigator.push` memiliki kegunaan untuk menavigasi aplikasi ke display/page/screen yang diinginkan dengan menambahkan route ke dalam stack. Sedangkan, `Navigator.pushReplacement` memiliki cara kerja yang sama, namun ia tidak menambahkan, melainkan mengganti route yang ada di top dari stack tersebut.
+
+## Widget yang digunakan pada Tugas 8
+- `TextFormField()` yang digunakan membuat form field yang memuat text field
+- `Form()` digunakan untuk membuat sebuah container untuk form field
+- `DropdownButtonField()` digunakan untuk membuat form field dengan bentuk dropdown button
+- `ListView` memiliki kegunaan untuk membuat page/screen/display yang bisa di scroll ke atas maupun ke bawah jika item memang melebihi kapasitas layar
+- `Drawer()` digunakan untuk pembuatan sidebar
+
+## Jenis-jenis Event yang ada pada flutter
+`onPressed`, `onSave`, `onTap`, `onChanged`, `onLongPressed`, etc. Namun pada tugas ini, saya hanya menggunakan `onPressed`, `onSaved`, `onChanged`.
+
+## Cara kerja `Navigator`
+Dikarenakan struktur dari Navigator, yaitu stack, di mana page/screen/display yang ada di atas dalam stack menjadi page yang sekarang, dengan method push yang akan menambahkan page baru di atas bagian stack.
+
+## Implementasi checklist
+- Dengan membuat drawer widget pada masing-masing page/display, yang akan digunakan sebagai navigator ke page/display lain.
+- Membuat page yang berisi sebuah form dengan atribut sesuai pada tugas. Lalu untuk menyimpan data yang ada di form, di project ini saya menggunakan Provider.
+- Untuk pembuatan page terakhir, yang berisi list dari data yang telah diinput di page/display form yang dibagikan melalui globalkey.
+
+-----------------------------------------------
 # Tugas 7 Flutter
 
 ## Penjelasan mengenai definisi stateless widget dan stateful widget dan perbedaan dari keduanya.
